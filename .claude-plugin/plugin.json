@@ -1,7 +1,7 @@
 {
   "name": "tribe-toolkit",
   "description": "Connect Claude Code to your team's tribal knowledge. Search past sessions, recall context, and reuse patterns.",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "TRIBE",
     "url": "https://tribecode.ai"
@@ -15,6 +15,5 @@
     "search",
     "recall",
     "context"
-  ],
-  "skills": "./skills"
+  ]
 }

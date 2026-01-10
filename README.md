@@ -22,15 +22,20 @@ tribe login
 tribe enable
 ```
 
-### 4. Install Claude Code Skills
+### 4. Install the Plugin
 
-Copy the skills to your Claude Code settings:
+Install the TRIBE toolkit plugin in Claude Code:
 
 ```bash
-cp skills/*.md ~/.claude/skills/
+claude plugins install tribe-toolkit@local --path /path/to/agent-toolkit
 ```
 
-Or add them via Claude Code settings UI.
+Or clone and install from GitHub:
+
+```bash
+git clone https://github.com/TRIBE-INC/agent-toolkit.git
+claude plugins install tribe-toolkit@local --path ./agent-toolkit
+```
 
 ## What's Included
 
@@ -40,9 +45,9 @@ Claude Code skills that integrate TRIBE into your workflow:
 
 | Skill | Description |
 |-------|-------------|
-| `tribe-search.md` | Search past sessions before solving problems |
-| `tribe-recall.md` | Recall context from previous work |
-| `tribe-workflow.md` | Complete workflow for using tribal knowledge |
+| `tribe-search` | Search past sessions before solving problems |
+| `tribe-recall` | Recall context from previous work |
+| `tribe-workflow` | Complete workflow for using tribal knowledge |
 
 ### Examples (`examples/`)
 
