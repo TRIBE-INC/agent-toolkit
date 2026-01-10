@@ -49,18 +49,13 @@ Claude Code skills that integrate TRIBE into your workflow:
 Real-world examples showing TRIBE in action:
 
 - `search-before-coding.md` - Find past solutions before writing new code
-- `recall-session-context.md` - Pull context from previous sessions
-- `extract-commands.md` - Reuse shell commands from past work
+- `continuing-previous-work.md` - Resume work from a previous session
 
 ### Documentation (`docs/`)
 
 - `getting-started.md` - Installation and setup guide
 - `cli-reference.md` - Complete CLI command reference
 - `best-practices.md` - Tips for building tribal knowledge
-
-### MCP Server (`mcp-server/`)
-
-Model Context Protocol server for direct Claude Code integration (coming soon).
 
 ## Core Commands
 
