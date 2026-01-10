@@ -107,22 +107,26 @@ tribe extract <session-id> --type commands
 tribe extract <session-id> --type files
 ```
 
-## Installing the Claude Code Plugin
+## Installing Claude Code Skills
 
-To integrate TRIBE into your Claude Code workflow, install the plugin:
+To integrate TRIBE into your Claude Code workflow, copy the skills to your commands directory:
 
 ```bash
 # Clone the agent-toolkit repository
 git clone https://github.com/TRIBE-INC/agent-toolkit.git
 
-# Install the plugin
-claude plugins install tribe-toolkit@local --path ./agent-toolkit
+# Copy skills to Claude Code commands directory
+cp agent-toolkit/skills/tribe-search/SKILL.md ~/.claude/commands/tribe-search.md
+cp agent-toolkit/skills/tribe-recall/SKILL.md ~/.claude/commands/tribe-recall.md
+cp agent-toolkit/skills/tribe-workflow/SKILL.md ~/.claude/commands/tribe-workflow.md
 ```
 
 This makes the following skills available:
-- `tribe-search` - Search past sessions before solving problems
-- `tribe-recall` - Recall context from previous work
-- `tribe-workflow` - Complete workflow for using tribal knowledge
+- `/tribe-search` - Search past sessions before solving problems
+- `/tribe-recall` - Recall context from previous work
+- `/tribe-workflow` - Complete workflow for using tribal knowledge
+
+Skills are available immediately in new Claude Code sessions.
 
 ## Troubleshooting
 

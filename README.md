@@ -22,20 +22,16 @@ tribe login
 tribe enable
 ```
 
-### 4. Install the Plugin
-
-Install the TRIBE toolkit plugin in Claude Code:
+### 4. Install Skills
 
 ```bash
-claude plugins install tribe-toolkit@local --path /path/to/agent-toolkit
-```
-
-Or clone and install from GitHub:
-
-```bash
+# Clone and install
 git clone https://github.com/TRIBE-INC/agent-toolkit.git
-claude plugins install tribe-toolkit@local --path ./agent-toolkit
+cd agent-toolkit
+./install.sh
 ```
+
+This copies skills to `~/.claude/commands/` where Claude Code finds them.
 
 ## What's Included
 
