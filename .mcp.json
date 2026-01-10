@@ -1,0 +1,6 @@
+{
+  "tribe": {
+    "command": "${HOME}/.tribe/bin/tribe-mcp",
+    "description": "TRIBE tribal knowledge - search sessions, recall context, extract patterns"
+  }
+}
